@@ -17,11 +17,17 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   background-color: black;
 }
+
+@font-face {
+  font-family: "Formula1";
+  src: local("Formula1"),
+   url(/fonts/Formula1.ttf) format("truetype");
+}
+
 </style>
